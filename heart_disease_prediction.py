@@ -57,8 +57,8 @@ df["target"] = y
 
 print("FIRST FIVE RECORDS")
 print(df.head().to_string(index=False))
-print("\\nDATASET SHAPE:", df.shape)
-print("\\nMISSING VALUES")
+print("\nDATASET SHAPE:", df.shape)
+print("\nMISSING VALUES")
 print(df.isnull().sum().to_string())
 
 # 2. Separate features and target; split with class proportions preserved.
@@ -69,7 +69,7 @@ X_train, X_test, y_train, y_test = train_test_split(
     X, y, test_size=0.20, random_state=42, stratify=y
 )
 
-print("\\nTRAINING SET:", X_train.shape)
+print("\nTRAINING SET:", X_train.shape)
 print("TESTING SET :", X_test.shape)
 
 # 3. Define six classification models.
@@ -121,7 +121,7 @@ results_df = pd.DataFrame(results).sort_values(
     by="F1-score", ascending=False
 ).reset_index(drop=True)
 
-print("\\nMODEL PERFORMANCE")
+print("\nMODEL PERFORMANCE")
 print(results_df.to_string(
     index=False,
     formatters={
@@ -133,7 +133,7 @@ print(results_df.to_string(
 ))
 
 best_model = results_df.iloc[0]["Model"]
-print("\\nBEST MODEL BY F1-SCORE:", best_model)
+print("\nBEST MODEL BY F1-SCORE:", best_model)
 
 # 5. Generate model-comparison graph.
 plot_data = results_df.sort_values("F1-score", ascending=True)
@@ -164,9 +164,9 @@ fig.savefig("confusion_matrix.png", dpi=180, bbox_inches="tight")
 fig.savefig("confusion_matrix.svg", bbox_inches="tight")
 plt.close(fig)
 
-print("\\nRANDOM FOREST CONFUSION MATRIX")
+print("\nRANDOM FOREST CONFUSION MATRIX")
 print(cm)
-print("\\nOUTPUT IMAGES SAVED:")
+print("\nOUTPUT IMAGES SAVED:")
 print("model_comparison.png")
 print("confusion_matrix.png")
-print("\\nRESULT: Six classification models trained and evaluated successfully.")
+print("\nRESULT: Six classification models trained and evaluated successfully.")
