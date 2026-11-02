@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="510" viewBox="0 0 760 510">
+<rect width="760" height="510" fill="#fff"/>
+<text x="380" y="42" text-anchor="middle" font-family="Arial,sans-serif" font-size="27" font-weight="700" fill="#142033">Random Forest Confusion Matrix</text>
+<text x="380" y="78" text-anchor="middle" font-family="Arial,sans-serif" font-size="15" fill="#526078">Actual versus predicted class labels</text>
+<text x="380" y="120" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" fill="#263247">Predicted</text>
+<text x="230" y="158" text-anchor="middle" font-family="Arial,sans-serif" font-size="15" fill="#263247">No Disease</text>
+<text x="430" y="158" text-anchor="middle" font-family="Arial,sans-serif" font-size="15" fill="#263247">Disease</text>
+<text x="90" y="280" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" fill="#263247" transform="rotate(-90 90 280)">Actual</text>
+<text x="145" y="235" text-anchor="middle" font-family="Arial,sans-serif" font-size="15" fill="#263247">No Disease</text>
+<text x="145" y="360" text-anchor="middle" font-family="Arial,sans-serif" font-size="15" fill="#263247">Disease</text>
+<rect x="180" y="175" width="200" height="110" fill="#1d4ed8"/><rect x="380" y="175" width="200" height="110" fill="#bfdbfe"/>
+<rect x="180" y="285" width="200" height="110" fill="#93c5fd"/><rect x="380" y="285" width="200" height="110" fill="#2563eb"/>
+<g font-family="Arial,sans-serif" font-size="34" font-weight="700" fill="#fff" text-anchor="middle"><text x="280" y="242">95</text><text x="480" y="242" fill="#142033">17</text><text x="280" y="352" fill="#142033">24</text><text x="480" y="352">69</text></g>
+<text x="380" y="450" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" fill="#64748b">TN = 95 • FP = 17 • FN = 24 • TP = 69</text>
+</svg>
