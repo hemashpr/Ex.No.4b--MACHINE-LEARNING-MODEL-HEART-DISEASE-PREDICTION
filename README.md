@@ -28,7 +28,7 @@ Resting BP	Resting blood pressure
 Cholesterol	Cholesterol level
 Fasting Blood Sugar	Blood sugar condition
 Resting ECG	Resting electrocardiogram result
-Maximum Heart Rate	Maximum heart rate achieved
+Maximum Heart Rate	Maximum heart rate achieved 
 Exercise Angina	Exercise-induced angina
 Oldpeak	ST depression value
 Target	Presence or absence of heart disease
